@@ -13,7 +13,8 @@ day_in_second = CONFIG["constant"]["day_in_second"]
 penalty = CONFIG["constant"]["penalty"]
 threshold = CONFIG["constant"]["threshold"]
 data_path = CONFIG["data"]["data_path"]
-filename = CONFIG["data"]["filename"]
+filename_user = CONFIG["data"]["filename_user"]
+filename_item = CONFIG["data"]["filename_item"]
 path_to_copy = CONFIG["data"]["path_to_copy"]
 
 # Import the input dataframe
@@ -44,8 +45,8 @@ def lookupFiles(item_to_keep, path_to_copy, filename):
 
 
 
-lookupuser = lookupFiles("userId", path_to_copy, filename)
-lookup_product = lookupFiles("itemId", path_to_copy, filename)
+lookupuser = lookupFiles("userId", path_to_copy, filename_user)
+lookup_product = lookupFiles("itemId", path_to_copy, filename_item)
 
 # Join the lookupDF to pick the userAsInteger and itemAsInteger columns
 
