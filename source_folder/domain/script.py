@@ -43,8 +43,7 @@ def lookupFiles(item_to_keep, path_to_copy, filename):
 
     return lookupDF
 
-
-
+# Call lookup object to write the csv files
 lookupuser = lookupFiles("userId", path_to_copy, filename_user)
 lookup_product = lookupFiles("itemId", path_to_copy, filename_item)
 
