@@ -1,0 +1,9 @@
+data:
+  data_path: /home/dancoh/Documents/attract_DE_test/xag.csv
+  path_to_copy: /home/dancoh/Documents/attract_DE_test/
+  filename: lookupuser
+
+constant:
+  penalty: 0.95
+  day_in_second: 86400
+  threshold: 0.01
