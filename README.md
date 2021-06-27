@@ -19,11 +19,19 @@ $ pip install -r requirements.txt
 
 Fill the "data" section in the .yml file with your own paths.
 
-## 4. How to use the code
+## 4. PYTHONPATH
+
+To completely use the code, you have to update your PYTHONPATH:
+
+``` 
+$ export PYTHONPATH=$PYTHONPATH:<your full path to this project>
+```
+
+## 5. How to use the code
 
 Once the config.yml is filled accordingly, you can just run the script.py script with:
 ```
  $ python domain/script.py
 ```
 
-PS: you have to be in the source_folder folder.
+PS: you have to be in the *source_folder* folder.
