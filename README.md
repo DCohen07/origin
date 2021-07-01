@@ -7,7 +7,7 @@ $ git clone <this project>
 $ cd <this project>
 ```
 
-## 2. Setup your environnemnt
+## 2. Setup your environnement
 
 To install the packages:
 
